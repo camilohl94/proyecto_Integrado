@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <style>
+        body{text-align: center;
+             
+            }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Formato para pedido de repuestos</h1>
+  </header>
+    <nav>
+      <a href="index.html">Inicio </a>
+      <a href="about.html">Acerca</a>
+    </nav>
+    <br />
+    <form action="" method="">
+        
+        <div>
+          <label for="idnomproducto">Nombre del producto</label><br>
+          <input type="text" id="idnomproducto" name="nproducto" placeholder="Nombre del producto" required>
+      </div>
+      <br>
+      <div>
+          <label for="idcantidad">Cantidad</label><br>
+          <input type="number" id="idcantidad" name="cantidad" placeholder="Cantidad" required>
+      </div>
+      <br>
+      <div>
+          <label for="Idpunitario">Precio unitario</label><br>
+          <input type="number" id="Idpunitario" name="precio_unitario" placeholder="Valor unitario">
+      </div>
+      <br>
+      <div>
+          <label for="Idptotal">Precio total</label><br>
+          <input type="number" id="Idptotal" name="precio_total" placeholder="Valor total">
+      </div>
+      <br>
+      <div>
+          <label for="Iddireccion">Direccion de envio</label><br>
+          <input type="text" id="Iddireccion" name="direccion"required placeholder="Direccion">
+      </div>
+      <br>
+      <h2>Informacion de contacto</h2>
+      <div>
+          <label for="idnombre">Nombre</label><br>
+          <input type="text" id="idnombre" name="nombre"required placeholder="Ingresa su nombre">
+      </div>
+      <br>      
+      <div>
+          <label for="idcorreo">Correo electronico</label><br>
+          <input type="email" id="idcorreo" name="correo"required placeholder="Ingresa su correo electronico">
+      </div>
+      <br>
+      <div>
+          <label for="idnumero">Numero de telefono</label><br>
+          <input type="number" id="idnumero" name="numero" placeholder="Numero de celular">
+
+      </div>
+      <br>
+      <div>
+      <label for="idforpago">Formas de pago</label><br>
+      <select name="Forma_pago" id="idforpago"required>
+          <option value="">Targeta debito</option>
+          <option value="" selected>Targeta credito</option>
+          <option value="">PSE</option>
+        </select>
+      </div>
+        <br>
+        <div>
+          <label for="idfentrega">Fecha de entrega</label><br>
+          <input type="datetime-local" id="idfentrega" name="fecha_entrega" required>
+        </div>
+        <br>
+        <div>
+          <label for="idcomentarios">Comentarios</label><br>
+          <textarea name="" id="idcomentarios" cols="30" rows="10" placeholder="Si tienes alguna sugerencia sobre nuestros productos."></textarea>
+        </div>
+        <br>
+        <div>
+          <button type="submit" id="idenviar" value="Enviar">Enviar</button>
+        </div>
+
+
+    </form>
+    <footer>
+        Nombre Completo
+        <br><br>
+        Juan camilo hernandez lopera
+        <br><br>
+        CESDE
+        <br>
+        <br>
+        &copy;2023
+    </footer>
+  </body>
+</html>
